@@ -4,4 +4,5 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 function destructivleyAppendKitten (name) {
   kittens.push(name)
+  return kittens
 }
